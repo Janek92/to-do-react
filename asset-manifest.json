@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Janek92/to-do-react/static/css/main.ffefc68a.css",
+    "main.js": "/Janek92/to-do-react/static/js/main.baccd645.js",
+    "index.html": "/Janek92/to-do-react/index.html",
+    "main.ffefc68a.css.map": "/Janek92/to-do-react/static/css/main.ffefc68a.css.map",
+    "main.baccd645.js.map": "/Janek92/to-do-react/static/js/main.baccd645.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffefc68a.css",
+    "static/js/main.baccd645.js"
+  ]
+}
