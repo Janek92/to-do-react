@@ -1,0 +1,62 @@
+.wall {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px 0;
+  animation: slide 0.6s linear;
+}
+.wall .tasks {
+  list-style-type: none;
+}
+
+li {
+  color: #fff;
+  margin: 5px 0;
+  font-size: 22px;
+  border-radius: 15px;
+  border-bottom: 2px solid rgb(0, 255, 255);
+  display: grid;
+  grid-template-columns: 1fr 10% 10% 10%;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.wall .tasks li button {
+  cursor: pointer;
+  font-size: 28px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+}
+
+.done {
+  color: #505050;
+  font-style: italic;
+}
+
+.wall .tasks li button:nth-child(1) {
+  color: #f00;
+}
+
+.wall .tasks li button:nth-child(2) {
+  color: #00f;
+}
+
+.wall .tasks li button:nth-child(3) {
+  color: #0f0;
+}
+
+button svg {
+  pointer-events: none;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateY(15%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
