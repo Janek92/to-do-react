@@ -6,7 +6,8 @@ import EditWall from "./components/EditWall";
 
 function App() {
   //Pobranie zadań z localStorage:
-  const toDoFromLS = JSON.parse(localStorage.getItem("toDo"));
+  let toDoFromLS = JSON.parse(localStorage.getItem("toDo"));
+  toDoFromLS === null ? (toDoFromLS = []) : (toDoFromLS = toDoFromLS);
 
   const [toDo, setToDo] = useState([...toDoFromLS]);
   const [task, setTask] = useState({});
